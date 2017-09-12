@@ -4,11 +4,12 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.indicatepointview.PointView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         initData();
         pv = (PointView) findViewById(R.id.pv);
         pv.setPointNum(pageData.size());
-        pv.setCurrentColor("#DD4C3F");
-        pv.setPointColor("#888888");
+        pv.setCurrentColor("#888888");
+        pv.setPointColor("#46528a");
         adapter = new ViewPagerAdapter();
         viewPager.setAdapter(adapter);
         initListener();

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PointView2.iml" filepath="$PROJECT_DIR$/PointView2.iml" />
       <module fileurl="file://$PROJECT_DIR$/indicatepointview/indicatepointview.iml" filepath="$PROJECT_DIR$/indicatepointview/indicatepointview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/indicatepointview/indicatepointview.iml" filepath="$PROJECT_DIR$/indicatepointview/indicatepointview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/point_view/point_view.iml" filepath="$PROJECT_DIR$/point_view/point_view.iml" />
       <module fileurl="file://$PROJECT_DIR$/point_view/point_view.iml" filepath="$PROJECT_DIR$/point_view/point_view.iml" />
     </modules>
   </component>

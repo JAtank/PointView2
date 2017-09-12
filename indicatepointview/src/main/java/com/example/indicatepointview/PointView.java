@@ -48,9 +48,9 @@ public class PointView extends View {
         for (int i = 0; i< pointNum;i++){
             distance = (width/pointNum)*i;
             if (i == mCurrentPosition){
-                paint.setColor(Color.parseColor("#DD4C3F"));
+                paint.setColor(Color.parseColor(mCurColor));
             }else {
-                paint.setColor(Color.parseColor("#888888"));
+                paint.setColor(Color.parseColor(mPointColor));
             }
             canvas.drawCircle(width/(2*pointNum)+distance,height/2,Math.min(width/(2*pointNum),height/2),paint);
         }
