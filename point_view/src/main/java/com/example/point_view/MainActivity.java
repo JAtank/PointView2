@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         initData();
         pv = (PointView) findViewById(R.id.pv);
         pv.setPointNum(pageData.size());
-        pv.setCurrentColor("#888888");
-        pv.setPointColor("#46528a");
+        pv.setCurrentColor("#a20654");
+        pv.setPointColor("#756214");
         adapter = new ViewPagerAdapter();
         viewPager.setAdapter(adapter);
         initListener();
